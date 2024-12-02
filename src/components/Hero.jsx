@@ -28,7 +28,7 @@ const Hero = () => {
    *  4 % 4 = 0 +1 =>1
    *
    */
-
+  
   const upCoomingVideoIndex = (currentIndex % totalVideos) + 1;
 
   const handleMiniVdClick = () => {
