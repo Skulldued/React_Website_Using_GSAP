@@ -4,6 +4,7 @@ import About from "./components/About";
 import Navbar from "./components/Navbar";
 import { BrowserRouter } from "react-router-dom";
 import Features from "./components/Features";
+import Story from "./components/Story";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Hero />
         <About />
         <Features/>
+        <Story/>
       </main>
     </BrowserRouter>
   );
